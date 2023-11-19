@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1f1e1e;
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.act>a { 
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.cer>a { 
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.pic>a>img{
+    display: flex;
+    justify-content: center;
+}
+
+.pic>a>img{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+}
+
+.word{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    margin: 10px;
+}
+
+.nickname{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: x-large;
+    display: flex;
+}
+
+.message{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    margin: 10px;
+}
+
+.com{
+    font-weight: bolder;
+    margin: 10px;
+    color: aliceblue;
+}
+
+.work{
+    font-weight: bolder;
+    margin: 10px;
+    color: aliceblue;
+}
+
+.wp{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.w{
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.act :hover{
+    color: antiquewhite;
+}
+
+.flow{
+    display: flex;
+    background-color: #333232;
+    margin: 15px;
+    justify-content: center;
+}
+
+
+.con{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333232;
+    margin: 15px;
+}
+
+.face{
+    padding: 10px;
+}
+
+.ig{
+    padding: 10px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 4px;
+    background-color: #333232;
+}
+
+.now{
+    display: flex;
+    flex-direction: column;
+    margin: 15PX;
+    justify-content: center;
+    background-color: #333232;
+}

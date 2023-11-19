@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717;
+    padding: 10px;
+    height: 100vh;
+    margin: 0;
+}
+
+.start{
+    display: flex;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+button{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: 2px solid #171717;
+}
+
+.btn :hover{
+    background-color:rgba(250, 235, 215, 0.6);
+    border-radius: 10px;
+    padding: 2px;
+}
